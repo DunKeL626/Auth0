@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Perfil Actualizado</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilo del cuerpo */
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #f3f4f6, #e2e8f0);
+            color: #333;
+        }
+
+        /* Contenedor de perfil */
+        .profile-card {
+            width: 100%;
+            max-width: 500px;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* Título */
+        .profile-card h2 {
+            color: #1d4ed8;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        /* Datos de usuario */
+        .user-info {
+            text-align: left;
+            margin-top: 20px;
+            color: #374151;
+        }
+
+        .user-info p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 5px;
+        }
+
+        /* Botón de regresar */
+        .back-btn {
+            display: inline-block;
+            margin-top: 20px;
+            background: #1d4ed8;
+            color: #ffffff;
+            padding: 12px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .back-btn:hover {
+            background: #2563eb;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile-card">
+        <h2>Perfil Actualizado</h2>
+        <div class="user-info">
+            <p><strong>Información actualizada:</strong> Con exito</p>
+        </div>
+        <div id="profileSection">
+            <p><a href="/logout" id="qsLogoutBtn" class="back-btn">Logout</a></p>
+        </div>
+        <div id="profileSection">
+            <p><a href="/" id="qsLogoutBtn" class="back-btn">Volver</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
